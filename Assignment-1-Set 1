@@ -1,0 +1,89 @@
+//WITHOUT ARUGUMENTS, WITH RETURN TYPE
+public class sum {
+public static void main(String args[])
+{
+float h=add();
+System.out.println(n);
+}
+public static float add() {
+float a=1.052f;
+float b=2.054f;
+float c=a+b;
+return c;
+}
+}
+
+//WITHOUT ARUGUMENTS, WITHOUT RETURN TYPE
+public class sum {
+public static void main(String args[])
+{
+add();
+}
+public static void add() {
+float a=1.062f;
+float b=2.154f;
+float c=a+b;
+System.out.println(c);
+}
+}
+
+//WITH ARUGUMENTS, WITHOUT RETURN TYPE
+public class sum {
+public static void main(String[] args) {
+float a=1.162f;
+float b=2.154f;
+add(a,b);
+}
+public static void add(float a, float b) {
+float c=a+b;
+System.out.println(c);
+}
+}
+
+//WITH ARUGUMENTS, WITH RETURN TYPE
+public class sum {
+public static void main(String[] args) {
+float a=1.162f;
+float b=2.154f;
+float result=add(a,b);
+System.ot.println(result);
+}
+public static void add(float a, float b) {
+float c=a+b;
+return c;
+}
+}
+
+//Write a program to  perform addition of two floating point numbers using command line arguments.
+public class sum
+{
+public static void main(String args[])
+{
+float x,y,z;
+x=Float.parseFloat(args[0]);
+y=Float.parseFloat(args[1]);
+s=x + y;
+System.out.println("Sum "+s);
+}
+}
+
+//Write a program to  perform addition of two floating point numbers using anonymous class.
+abstract class add {
+public abstract void display();
+}
+public class sum {
+public static void main(String args[])
+{
+add inclas = new add() {
+public void display() {
+float a,b,res;
+a=20.64f;
+b=64.258f;
+res=a+b;
+System.out.println(res);
+}
+};
+inclas.display();
+}
+}
+
